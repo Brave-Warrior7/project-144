@@ -1,0 +1,51 @@
+body{
+background-size: cover;
+}
+#main_div{
+    background-color: rgb(72, 212, 231);
+    color: rgb(5, 87, 42);
+    box-shadow: 15px 15px 15px rgb(53, 158, 245);
+    
+}
+#h31{
+    margin-top: -1px;
+    color: rgb(12, 87, 87);
+    font-weight: bolder;
+}
+#h41{
+    font-weight: bold;
+    font-style: italic;
+}
+#button_1{
+    background-color: rgb(51, 228, 140);
+    padding-left: 17px;
+    padding-right: 17px;
+    color: rgb(3, 61, 37);
+    box-shadow: 7px 7px 7px rgb(53, 245, 111);
+    font-weight: bold;
+    border-color: rgb(9, 177, 73);
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 10px;
+
+}
+#button_1:hover{
+    background-color:rgb(91, 235, 134) ;
+    padding-left: 25px;;
+    padding-right: 25px;
+}
+canvas{
+background-color: aquamarine;
+border-radius: 10px;
+animation-name: example;
+animation-duration: 4s; 
+animation-iteration-count: infinite;
+}
+@keyframes example { 
+from {box-shadow: 1px 1px 10px rgb(0, 255, 234);}
+to {box-shadow: 1px 1px 10px rgb(0, 255, 85);}
+}
+#song{
+     font-weight: bold;
+    color: rgb(0, 255, 179);
+}
